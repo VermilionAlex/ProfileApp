@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "OIoXByEinqYrT9IJSorrlFLkev13": {
+      "type": "object",
+      "properties": {
+        "animal": { "type": "string" },
+        "birthday": { "type": "string" },
+        "food": { "type": "string" },
+        "image": { "type": "string", "format": "uri" },
+        "name": { "type": "string" }
+      },
+      "required": ["animal", "birthday", "food", "image", "name"]
+    },
+    "gY3Vbkh8yfVnAEa4mf7vuVgxxb83": {
+      "type": "object",
+      "properties": {
+        "animal": { "type": "string" },
+        "birthday": { "type": "string" },
+        "food": { "type": "string" },
+        "image": { "type": "string", "format": "uri" },
+        "name": { "type": "string" }
+      },
+      "required": ["animal", "birthday", "food", "image", "name"]
+    },
+    "highScore": { "type": "integer" }
+  },
+  "required": ["OIoXByEinqYrT9IJSorrlFLkev13", "gY3Vbkh8yfVnAEa4mf7vuVgxxb83", "highScore"]
+}
